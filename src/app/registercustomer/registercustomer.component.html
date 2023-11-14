@@ -1,0 +1,18 @@
+<nav class="navbar navbar-expand-sm  bg-primary navbar-dark ">
+    <h2>Registration Form For Customer</h2>
+    <div>
+        <form (ngSubmit)="onSubmit()">
+    
+            cid:<input type="text" name="cid" Id="cid" [(ngModel)]="customer.cid"><br>
+            name:<input type="text" name="name" Id="name" [(ngModel)]="customer.name"><br>
+            address:<input type="text" name="address" Id="address" [(ngModel)]="customer.address"><br>
+            phoneno:<input type="text" name="phoneno" Id="phoneno" [(ngModel)]="customer.phoneno"><br>
+            <div>
+                <button type="submit">submit</button>
+            </div>
+            {{msg}}
+        
+        </form>
+    
+    </div>
+    </nav>

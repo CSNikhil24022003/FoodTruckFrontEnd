@@ -1,0 +1,46 @@
+body {
+    background-image: url('https://hs-marketing-contentful.imgix.net/https%3A%2F%2Fimages.ctfassets.net%2Fp15sglj92v6o%2FnmIkoqbgT8AyPn3MDImnG%2F8ba7af11f1bc9bc2bbe13be4d41489b7%2Fcustomer-support-hero.png?ixlib=gatsbySourceUrl-2.1.1&auto=format%2C%20compress&s=9b34737cb88e196c58b0fe8316d5563a');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+form {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+label,
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    margin-bottom: 10px;
+    width: calc(100% - 20px);
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}

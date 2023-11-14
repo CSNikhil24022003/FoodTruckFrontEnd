@@ -1,0 +1,17 @@
+<nav class="navbar navbar-expand-sm  bg-primary navbar-dark ">
+    <h2>Customerorder</h2>
+    <div>
+        <form (ngSubmit)="custorder()">
+    
+            food name:<input type="text" name="fname" Id="fname" [(ngModel)]="fdto.fname"><br>
+            amt:<input type="text" name="amt" Id="amt" [(ngModel)]="fdto.amt"><br>
+            option:<input type="text" name="option" Id="option" [(ngModel)]="fdto.option"><br>
+            <div>
+                <button type="submit">submit</button>
+            </div>
+            {{msg}}
+        
+        </form>
+    
+    </div>
+    </nav>

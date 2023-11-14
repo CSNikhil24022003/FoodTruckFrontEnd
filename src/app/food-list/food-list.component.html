@@ -1,0 +1,24 @@
+<p>Food Menu</p>
+<h2>
+    Food
+</h2>
+<table border="5">
+    <thead>
+        <tr>
+            <th>fid</th>
+            <th>fname</th>
+            <th>amt</th>
+            
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let food of foods">
+            <td>{{food.fid}}</td>
+            <td>{{food.fname}}</td>
+            <td>{{food.amt}}</td>
+
+        </tr>
+    </tbody>
+
+
+</table>
